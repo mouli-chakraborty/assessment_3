@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--fontawsome cdn links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css link-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--navbar starts-->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo">
+                    <img src="./image/logo-image.png" alt="logo-image">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">shop now</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+                <div class="nav-right">
+                    <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="icon"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-box"></i></a>
+                    <ul>
+                        <li><a href="#">cart:0 item(s)</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars hamburger"></i>
+            </nav>
+        </div>
+    </header>
+    <!--navbar ends-->
+    <!--hambarger-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamburger").click(function () {
+                $(".nav-links").toggle();
+                $(selector).show("slide", { direction: "left" }, 1000);
+
+
+            });
+        });
+    </script>
+    <!--hambarger-->
+    <main>
+        <!--banner starts-->
+        <section class="banner">
+            <div class="container">
+                <div class="banner-child">
+                    <h1>factory direct pricing</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy
+                    </p>
+                    <a href="#" class="cmn-btn">explore doors<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--banner ends-->
+        <!--about starts-->
+        <section class="about com-gap">
+            <div class="container">
+                <div class="about-child">
+                    <div class="left">
+                        <div class="inner-text">
+                            <span class="about-text">who you are</span>
+                            <h2>about us</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <figure>
+                            <img src="./image/about1-image1.png" alt="about1-image1" class="abt1-image">
+                        </figure>
+                        <figure>
+                            <img src="./image/about1-image2.png" alt="about1-image2" class="abt2-image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about ends-->
+        <!--card starts-->
+        <section class="card">
+            <div class="container">
+                <div class="card-upper">
+                        <span class="card-text">why choose us</span>
+                    <h2>advantages we offer</h2>
+                    </div>
+                <div class="card-child">
+                    <div class="cmn-card">
+                        <div class="image">
+                            <figure>
+                                <img src="./image/card1-image.png" alt="card1-image" class="crd-img">
+                            </figure>
+                        </div>
+                        <div class="text">
+                            <h3>shop widely</h3>
+                            <p>lorem ipsum simply dummy</p>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="image">
+                            <figure>
+                                <img src="./image/card2-image.png" alt="card2-image" class="crd-img">
+                            </figure>
+                        </div>
+                        <div class="text">
+                            <h3>shop widely</h3>
+                            <p>lorem ipsum simply dummy</p>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="image">
+                            <figure>
+                                <img src="./image/card3-image.png" alt="card3-image" class="crd-img">
+                            </figure>
+                        </div>
+                        <div class="text">
+                            <h3>shop widely</h3>
+                            <p>lorem ipsum simply dummy</p>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="image">
+                            <figure>
+                                <img src="./image/card4-image.png" alt="card4-image" class="crd-img">
+                            </figure>
+                        </div>
+                        <div class="text">
+                            <h3>shop widely</h3>
+                            <p>lorem ipsum simply dummy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--card ends-->
+    </main>
+    <!--footer starts-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-child">
+                <div class="cmn-footer">
+                    <h3>get upto 10% off!</h3>
+                    <p>Be the first to know about new arrivals and exclusive offers.</p>
+                    <div class="subscribe-box">
+                        <input type="email" placeholder="Enter Your Email" class="pl-holder"/>
+                    </div>
+                    <a href="#" class="cmn-btn">subscribe</i></a>
+                </div>
+                <div class="cmn-footer">
+                    <div class="footer-head">quick links</div>
+                    <ul class="footer-links">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">shop now</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </div>
+                <div class="cmn-footer">
+                    <div class="footer-head">institutional</div>
+                    <ul class="footer-links">
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                </div>
+                <div class="cmn-footer">
+                    <div class="footer-head">social media</div>
+                    <ul class="social-media-links">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right">
+                Copyright © 2025  <a href="./index.html">CabinetMark LLC</a>  All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+</body>
+
+</html>
